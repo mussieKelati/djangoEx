@@ -25,5 +25,6 @@ from .import views
 urlpatterns = [
    path('admin/', admin.site.urls),
     # path('my_app', include ('my_app.urls')),
-    path('sec_app', include ('sec_app.urls'))
+    path('sec_app', include ('sec_app.urls')),
+    path('chalenges/', include('third_app.urls'))
 ]
